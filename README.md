@@ -1,7 +1,7 @@
 # Desafío para Software Engineers
 
-Nombre postulante: [TU NOMBRE]
-Link a la app en producción: [LINK DEL DEPLOY]
+Nombre postulante: Gonzalo Ramos Farinho  
+Link a la app en producción: https://kimche-gonzaloramosf.herokuapp.com
 
 ## Instrucciones
 
