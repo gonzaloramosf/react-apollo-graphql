@@ -1,7 +1,12 @@
 # Desafío para Software Engineers
 
 Nombre postulante: Gonzalo Ramos Farinho  
-Link a la app en producción: https://kimche-gonzaloramosf.herokuapp.com
+Link a la app en producción: https://kimche-gonzaloramosf.herokuapp.com  
+  
+"La tabla que contiene la información correspondiente a la asistencia diaria de un niño en un colegio tiene 90 millones de filas. Todas las tablas del sistema existen en la misma BDD en MySQL. La lógica del backend que actualiza la información correspondiente al pasar la asistencia tiene un tiempo de servicio p95 de 10 segundos. El equipo está interesado en bajar este tiempo para mejorar la experiencia del usuario (y porque nos gusta pensar en Kimche como un Ferrari). ¿Qué propondrías para enfrentar el problema? Esta pregunta es abierta, no hay respuestas malas. Puedes proponer arquitectura, tecnologías, diseño, etc."
+  
+Propuesta para mejorar el tiempo de respuesta  
+Una posible solución podría ser utilizar particiones en la tabla para mejorar el tiempo de respuesta de las consultas, facilitando la consulta de datos, mejor administrada, y como así también pudiendo lograr que las consultas sean mas rápidas.
 
 ## Instrucciones
 
